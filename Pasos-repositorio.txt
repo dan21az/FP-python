@@ -1,0 +1,35 @@
+PASOS PARA ACCEDER TEMPORAL A REPOSITORIO DE GITHUB
+
+PASO 1
+TENER INSTALADO GIT Y VSC y verificar el paso extra al final
+
+PASO 2
+Presionar CTRL + ALT + P
+escribir git:clone
+
+PASO 3
+Pegar el URL del repositorio
+FP-Python: https://github.com/dan21az/FP-python.git
+POO-Java: https://github.com/dan21az/POO-proyects.git
+
+PASO 4
+Pedirá iniciar sesión en git, para ello se usará el código desde el navegador del teléfono 
+GUARDAR los archivos en una CARPETA TEMPORAL
+
+PASO 5 (GUARDAR CAMBIOS)
+Paso 5.1 en la terminal (Ctrl + ñ o ~) escribir:
+	git config user.name "TempUser"
+	git config user.email "temp@example.com"
+Paso 5.2 GUARDAR TODOS LOS CAMBIOS, escribir un comentario en control de código fuente (Ctrl + Mayus + G), confirmar y subir los cambios al main del repositorio
+
+Paso 6
+Paso 6.1: CERRAR TODAS las carpetas, proyectos y finalmente el visual studio
+Paso 6.2: BORRAR LA CARPETA TEMPORAL donde se guardo el repo
+PASO 6.3 (Importante): ENTRAR AL ADMINISTRADOR DE CREDENCIALES DE WINDOWS Y ELIMINAR LA CLAVE DE GIT (EN CREDENCIALES DE WINDOWS)
+
+Este ultimo paso varia según el sistema
+
+paso extra verificar que el sistema en windows erpmite eliminar credenciales con
+	Entra en Credenciales de Windows.
+	Si puedes ver y eliminar entradas (botón “Quitar”), tienes control.
+	Si el botón está deshabilitado o no aparece, también está bloqueado.
