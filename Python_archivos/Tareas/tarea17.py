@@ -73,7 +73,7 @@ for i in list(tipos_unicos):
     promedios[i] = promedio
 print(promedios)
 
-print("Holap world--")
+print("Holap world--:D")
 
 
 
