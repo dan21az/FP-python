@@ -49,4 +49,4 @@ datos = [
  "2024-05-17,40,0.0,Córdoba"
 ]
 
-registros_meteorologicos(registros) #Aplicamos la función con la lista de registros deseada
+registros_meteorologicos(registros) #Aplicamos la función con la lista de regi
